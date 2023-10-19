@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+with open("api/backend.py", "r") as f:
+    exec(f.read())

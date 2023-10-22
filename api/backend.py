@@ -1,4 +1,4 @@
-from api.wsgi import app
+from api._wsgi import app
 import random
 
 @app.route("/random")
